@@ -1,20 +1,25 @@
-.bluebox {
-    display:flex;
-    background-color: #1F2937;
-    align-items: stretch;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 
 .header {
     background-color: #1F2937;
-    display: flex;
-    align-content: space-between;
-
-}
+    padding: 1px 15px;
+    }
 
 .listone {
+    display: flex;
     background-color: #1F2937;
-    align-content: stretch;
-    flex-direction:column;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .quote {
